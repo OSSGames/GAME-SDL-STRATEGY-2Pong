@@ -1,0 +1,18 @@
+2Pong: A pong clone with 2 balls.
+Version 0.6
+
+2Pong, as the name might indicate, is a pong clone. However, there is one visible 
+difference from the regular pong - it is played with two balls instead of one. The 
+game features three modes of play - the regular pong game, a time based mode 
+against an unbeatable AI opponent, and a "2 vs 2" mode. 
+Network support for "1 vs 1" games is also available.
+Network support for "2 vs 2" games is planned.
+
+The game is written in C, utilizing the SDL library.
+Use 'make' to compile it.
+The binary is distributed with the package. Use 'make install' to install it.
+It is installed to /usr/local/bin by default. This can be changed in the Makefile.
+
+Copyright (c) 2003      Itay Kirshenbaum
+
+Distributed under the GNU General Public License
