@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<config>
+
+<menu name="main">
+<title>2Pong Main Menu</title>
+<option>
+<type>submenu</type>
+<title>Regular</title>
+<submenu>regular-menu</submenu>
+</option>
+<option>
+<type>submenu</type>
+<title>Network</title>
+<submenu>network-menu</submenu>
+</option>
+<option>
+<type>submenu</type>
+<title>Quit</title>
+<submenu>quit-menu</submenu>
+</option>
+</menu>
+
+<menu name="pause-menu">
+<title>Pause</title>
+<option>
+<title>Resume Game</title>
+<type>action</type>
+<action>resume</action>
+</option>
+<option>
+<title>Main Menu</title>
+<type>submenu</type>
+<submenu>main</submenu>
+</option>
+</menu>
+
+<menu name="quit-menu">
+<title>Are You Sure You Want To Quit?</title>
+<option>
+<type>submenu</type>
+<title>No</title>
+<submenu>main</submenu>
+</option>
+<option>
+<type>action</type>
+<title>Yes</title>
+<action>quit</action>
+</option>
+</menu>
+
+<menu name="regular-menu">
+<title>Difficulty Level?</title>
+<option>
+<type>action</type>
+<action>play</action>
+<title>Easy</title>
+<mode>regular</mode>
+<difficulty>easy</difficulty>
+</option>
+<option>
+<type>action</type>
+<action>play</action>
+<title>Medium</title>
+<mode>regular</mode>
+<difficulty>medium</difficulty>
+</option>
+<option>
+<type>action</type>
+<action>play</action>
+<title>Hard</title>
+<mode>regular</mode>
+<difficulty>hard</difficulty>
+</option>
+<option>
+<title>Main Menu</title>
+<type>submenu</type>
+<submenu>main</submenu>
+</option>
+</menu>
+
+<menu name="network-menu">
+<title>Choose Your Destiny!</title>
+<option>
+<title>Server</title>
+<type>action</type>
+<action>play</action>
+<mode>server</mode>
+</option>
+<option>
+<title>Client</title>
+<type>action</type>
+<action>play</action>
+<mode>client</mode>
+</option>
+</menu>
+
+</config>

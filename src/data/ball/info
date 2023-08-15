@@ -1,0 +1,8 @@
+FILES: 4
+# SYNTAX:
+# filename of the frame, milliseconds to pause afterwards,
+# the RGB of the transparent part.
+1.bmp       20    0 0 255
+2.bmp       20    0 0 255
+3.bmp       20    0 0 255
+4.bmp       20    0 0 255

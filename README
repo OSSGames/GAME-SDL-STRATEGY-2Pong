@@ -1,18 +1,47 @@
-2Pong: A pong clone with 2 balls.
-Version 0.6
+2Pong v1.0a
 
-2Pong, as the name might indicate, is a pong clone. However, there is one visible 
-difference from the regular pong - it is played with two balls instead of one. The 
-game features three modes of play - the regular pong game, a time based mode 
-against an unbeatable AI opponent, and a "2 vs 2" mode. 
-Network support for "1 vs 1" games is also available.
-Network support for "2 vs 2" games is planned.
+Notes:
+~~~~~~
+	- Rewrote from scratch.
+	- Much faster, uses less resources, etc.
+	- Windows support.
+	- Network game should work ok.
+	- Graphics are obviously placeholders (if you can do better, let me know - kirsh@softhome.net).
+	- `Kickups` will return in the next release.
+	- Added a few Powerup-thingies (faster ball, slower ball, split ball in two, etc). Should make it a bit more interesting.
+	- A settings menu (including getting rid of the powerups) in the next release.
 
-The game is written in C, utilizing the SDL library.
-Use 'make' to compile it.
-The binary is distributed with the package. Use 'make install' to install it.
-It is installed to /usr/local/bin by default. This can be changed in the Makefile.
+Requirements:
+~~~~~~~~~~~~~
 
-Copyright (c) 2003      Itay Kirshenbaum
+	- SDL
+	- SDL_Net
+	- SDL_Mixer
+	- iconv
+	- zlib
+	- libxml2
 
-Distributed under the GNU General Public License
+
+Compiling:
+~~~~~~~~~~
+	- cd src
+	- make
+
+Credits:
+~~~~~~~~
+
+	- Kirsh
+	- Nazgul
+	- Limburger
+	- Grooveygr
+	- Xetrov
+	- MatanH
+	- Noam
+	- Eskorbuto
+	- Chaka
+	- SantaTron
+	- bgo-
+
+License:
+~~~~~~~~
+	- This program is released under the GPL.
